@@ -20,7 +20,7 @@ section {
     padding: 3%;
 }
 
-.half-width img {
+.half-width .first-img {
     width: 300px;
     padding-left: 30%;
 
@@ -32,4 +32,9 @@ section {
     color: white;
     padding: 10px 40px;
     border-radius: 10px;
+}
+
+.scnd-img {
+    width: 250px;
+    padding-left: 80px;
 }
