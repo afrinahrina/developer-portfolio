@@ -11,8 +11,9 @@ h1 span {
     color: dodgerblue;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 90px;
 }
 
 .half-width {
@@ -37,4 +38,21 @@ section {
 .scnd-img {
     width: 250px;
     padding-left: 80px;
+}
+
+.experience-item {
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px #585555;
+    border-left: 7px solid;
+    border-image: linear-gradient(skyblue, black);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
